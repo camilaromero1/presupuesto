@@ -1,0 +1,15 @@
+<h4 class="text-center">Ingresar gasto</h4>
+<hr>
+<div class="form-group mb-4">
+    <label for="gasto">Descripcion</label>
+    <input type="text" id="gasto" class="form-control form-control-lg" placeholder="Ejemplo: comida" [(ngModel)]="gasto">
+</div>
+<div class="form-group mb-4">
+    <label for="cantidad">Importe</label>
+    <input type="number" id="cantidad" class="form-control form-control-lg" placeholder="Ejemplo: $8000" [(ngModel)]="cantidad">
+</div>
+
+<button class="btn btn-secondary btn-lg btn-block" (click)="agregarGasto()">AGREGAR GASTO</button>
+
+
+

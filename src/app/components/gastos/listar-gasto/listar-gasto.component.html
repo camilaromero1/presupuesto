@@ -1,0 +1,15 @@
+<h4 class="text-center">Listado de Gastos</h4>
+<hr>
+<div class="row">
+   <div>
+      <div class="presupuesto">
+         Presupuesto inicial: ${{presupuestoService.presupuesto}}
+      </div>
+      <div class="restante">
+         Restante: ${{presupuestoService.restante}}
+      </div>
+   </div>
+   <div *ngFor="let gasto of presupuestoService.gastos" class="listado">
+      {{gasto.gasto}}: ${{gasto.cantidad}}
+   </div>
+</div>

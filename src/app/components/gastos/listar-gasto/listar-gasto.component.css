@@ -1,0 +1,24 @@
+.presupuesto {
+    background-color: #4caf50;
+    color: white;
+    font-size: 1.5em;
+    font-family: Arial, sans-serif;
+    padding: .75rem 1.25rem;
+    margin-bottom: .4rem;
+  }
+  
+  .restante {
+    background-color: #f44336;
+    color: white;
+    font-size: 1.5em;
+    font-family: Arial, sans-serif;
+    padding: .75rem 1.25rem;
+    margin-bottom: .4rem;
+  }
+
+  .listado {
+    color: black;
+    font-size:larger ;
+    font-family: Arial, sans-serif;
+
+  }
